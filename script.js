@@ -16,11 +16,11 @@ const JUMP_FORCE = 1000;
 const SPEED = 320;
 const CEILING = -60;
 
-loadSprite("bird", "/sprites/bird.png");
+loadSprite("bird", "./sprites/bird.png");
 
-loadSound("score", "/sounds/score.mp3");
-loadSound("jump", "/sounds/jump.mp3");
-loadSound("hit", "/sounds/hit.mp3");
+loadSound("score", "./sounds/score.mp3");
+loadSound("jump", "./sounds/jump.mp3");
+loadSound("hit", "./sounds/hit.mp3");
 
 setGravity(GRAVITY);
 setBackground(BACKGROUND_COLOR);
