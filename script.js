@@ -48,7 +48,6 @@ scene("game", () => {
 
   const jump = () => {
     bird.jump(JUMP_FORCE);
-    bird.style.transform(-2 deg);
     play("jump");
   }
 
