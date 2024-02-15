@@ -136,7 +136,7 @@ scene("lose", (score) => {
   add([
     text("Набрано очков: " + score),
     pos(center()),
-    scale(1.5),
+    scale(1),
     anchor("center"),
   ]);
 
