@@ -13,7 +13,7 @@ const PIPE_OPEN = 240;
 const PIPE_MIN_HEIGHT = 60;
 
 const JUMP_FORCE = 1000;
-const SPEED = 320;
+const SPEED = 300;
 const CEILING = -60;
 
 loadSprite("bird", "./sprites/bird.png");
