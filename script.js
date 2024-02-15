@@ -48,6 +48,7 @@ scene("game", () => {
 
   const jump = () => {
     bird.jump(JUMP_FORCE);
+    bird.style.transform(-2 deg);
     play("jump");
   }
 
@@ -134,9 +135,9 @@ scene("game", () => {
 
 scene("lose", (score) => {
   add([
-    text("Набрано очков: " + score),
+    text(score),
     pos(center()),
-    scale(1),
+    scale(3),
     anchor("center"),
   ]);
 
